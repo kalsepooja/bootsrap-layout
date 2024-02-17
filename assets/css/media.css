@@ -1,0 +1,36 @@
+@media all and (min-width:992px) {
+
+    .fkNavbar .nav-link {
+        margin-right: 6px;
+    }
+    .contactus .width{
+        width:48%;
+    }
+}
+
+@media all and (max-width:768px) {
+    .navbar.fkNavbar {
+        padding: 0;
+    }
+    .fkNavbar .navbar-toggler {
+        margin-right: 20px;
+    }
+    .fkNavbar .nav-link {
+        padding-left: 20px;
+        margin-top: 3px;
+    }
+}
+
+@media all and (max-width:600px) {
+    .laptopInfo {
+        text-align: center;
+    }
+}
+
+@media all and (max-width:425px) {
+    .newsInfo .mainForm{
+          display: contents; 
+    } 
+}
+
+
